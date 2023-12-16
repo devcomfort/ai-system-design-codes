@@ -16,11 +16,14 @@
 > 위의 [Ideas](#ideas)를 구현한 코드입니다.
 > _데이터셋 출처: [Airline Passenger Satisfaction | Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/)_
 
-- [assignment.m](./assignment.m)
-- [REPORT.md](./REPORT.md)
-- [REPORT.pdf](./REPORT.pdf)
-- [train.csv](./train.csv)
-- [test.csv](./test.csv)
+- [assignment.m](./assignment.m): Matlab 코드
+- [REPORT.pdf](./REPORT.pdf): 자유 형식 보고서 (pdf 변환된)
+- [origin_dataset](./origin_dataset/): 원본 데이터셋
+  - [train.csv](./origin_dataset/train.csv): 훈련 데이터셋
+  - [test.csv](./origin_dataset/test.csv): 테스트 데이터셋
+- [dataset](./dataset/): 정규화된 데이터셋
+  - [train.csv](./dataset/train.csv): 훈련 데이터셋
+  - [test.csv](./dataset/test.csv): 테스트 데이터셋
 
 ## Reference
 

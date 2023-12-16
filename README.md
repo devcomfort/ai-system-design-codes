@@ -7,23 +7,27 @@
 ## Ideas
 
 - Elbow method 도입:
-  군집의 수 $k$를 바꿔가면서
+  군집의 수 $k$를 바꾸면서 군집화를 수행하여 최적의 $k$ 탐색
 - 최적의 중심점 결점: 초기값 지정 방식 변경:
   초기값으로 랜덤한 난수가 아닌 PCA(주성분분석) 또는 LDA(선형판별분석)을 어느 정도 최적화된 값을 사용하도록 변경
 
-## 과제 제출물
+## 프로젝트 구조
 
-> 위의 [Ideas](#ideas)를 구현한 코드입니다.
-> _데이터셋 출처: [Airline Passenger Satisfaction | Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/)_
-
-- [assignment.m](./assignment.m): Matlab 코드
-- [REPORT.pdf](./REPORT.pdf): 자유 형식 보고서 (pdf 변환된)
-- [origin_dataset](./origin_dataset/): 원본 데이터셋
-  - [train.csv](./origin_dataset/train.csv): 훈련 데이터셋
-  - [test.csv](./origin_dataset/test.csv): 테스트 데이터셋
-- [dataset](./dataset/): 정규화된 데이터셋
-  - [train.csv](./dataset/train.csv): 훈련 데이터셋
-  - [test.csv](./dataset/test.csv): 테스트 데이터셋
+- [test](./test): 테스트를 위해 작성한 여러 실습 및 테스트 코드 파일 뭉치입니다.
+- [Airline Passenger Satisfaction | Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/) 데이터 관련
+  - [origin_dataset](./origin_dataset/): 원본 [Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/) 데이터셋입니다.
+  - [dataset](./dataset/): Matlab에서 사용하고자 모든 데이터를 정수 및 실수 범위로 정규화 한 데이터셋입니다.
+  - [normalize.py](./normalize.py): `origin_dataset`의 원본 데이터를 `dataset`의 데이터로 정규화할 때 사용한 코드입니다.
+- 과제 제출물
+  - [kmeans_basic.m](./kmeans_basic.m): K Means 시연 코드입니다
+  - [kmeans_basic_wss.m](./kmeans_basic_wss.m): K Means의 WCSS 계산을 위해 사용한 코드입니다
+  - [kmeans++.m](./kmeans++.m): K Means++ 시연 코드입니다
+  - [kmeans++\_wss.m](./kmeans++_wss.m): K Means의 WCSS 계산을 위해 사용한 코드입니다
+  - [elbow_method.m](./elbow_method.png): Elbow Method 시연 및 이미지 생성을 위해 사용한 코드입니다
+  - [pca.m](./pca.m): PCA 사용를 사용한 K Means 중심점 초기화 시연에 사용한 코드입니다
+  - [basic-k-means-wss.png](./basic-k-means-wss.png): K Means의 WCSS 시각화 이미지입니다
+  - [k-means-++-wss.png](./k-means-++-wss.png): K Means++의 WCSS 시각화 이미지입니다
+  - [elbow_method.png](./elbow_method.png): Elbow Method 시연 이미지입니다
 
 ## Reference
 

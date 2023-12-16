@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "huksy install"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "husky": {
-    "hooks": {
-      "pre-commit": "pip freeze > requirements.txt && git add requirements.txt"
-    }
-  },
   "devDependencies": {
     "husky": "^8.0.3"
   }

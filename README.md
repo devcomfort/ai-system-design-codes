@@ -14,10 +14,13 @@
 ## 과제 제출물
 
 > 위의 [Ideas](#ideas)를 구현한 코드입니다.
+> _데이터셋 출처: [Airline Passenger Satisfaction | Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/)_
 
 - [assignment.m](./assignment.m)
 - [REPORT.md](./REPORT.md)
 - [REPORT.pdf](./REPORT.pdf)
+- [train.csv](./train.csv)
+- [test.csv](./test.csv)
 
 ## Reference
 

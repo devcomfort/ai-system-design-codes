@@ -16,9 +16,20 @@ footer: 20211343 김동현
 
 ---
 
-## Data Set
+### Data Set
 
-#### [SuperStore Time Series Dataset - Kaggle](https://www.kaggle.com/datasets/blurredmachine/superstore-time-series-dataset/data?select=superstore_train.csv)
+<div style="font-size: 1.5rem;">
+
+[SuperStore Time Series Dataset - Kaggle](https://www.kaggle.com/datasets/blurredmachine/superstore-time-series-dataset/data?select=superstore_train.csv)
+
+- Order Date: 주문 날짜 데이터,
+  2014.01.03 - 2017.12.30
+- Discount: 할인률
+- Profie: 주문에 대한 순익
+
+</div>
+
+![bg right:50% w:500](./superstore-time-series.png)
 
 ---
 
@@ -40,6 +51,24 @@ footer: 20211343 김동현
 
 ## 구현 내용
 
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+  <div>
+    <img src="./performance.png" />
+    <span>성능 평가</span>
+  </div>
+  <div>
+    <img src="./train_status.png" />
+    <span>학습 과정</span>
+  </div>  
+</div>
+
 ---
 
 ## 결론
+
+<div style="font-size: 1.75rem;">
+
+-
+- 순환 신경망의 한 갈래인 NARX를 사용해보면서 신기했다
+
+</div>

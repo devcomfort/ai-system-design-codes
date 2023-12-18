@@ -45,7 +45,7 @@ footer: 20211343 김동현
 
 </div>
 
-![bg right:33% w:200](./image.png)
+![bg right:33% w:250](./image-2.png)
 
 ---
 
@@ -60,15 +60,4 @@ footer: 20211343 김동현
     <img src="./train_status.png" />
     <span>학습 과정</span>
   </div>  
-</div>
-
----
-
-## 결론
-
-<div style="font-size: 1.75rem;">
-
--
-- 순환 신경망의 한 갈래인 NARX를 사용해보면서 신기했다
-
 </div>

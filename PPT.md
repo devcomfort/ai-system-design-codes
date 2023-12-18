@@ -18,21 +18,17 @@ footer: 20211343 김동현
 
 ## Data Set
 
-#### SuperStore Time Series Dataset - Kaggle
+#### [SuperStore Time Series Dataset - Kaggle](https://www.kaggle.com/datasets/blurredmachine/superstore-time-series-dataset/data?select=superstore_train.csv)
 
 ---
 
 ## NARX 소개
-
-<div style="font-size: 1.75rem;">
 
 #### NARX의 특징
 
 1. 순환신경망: 시계열 데이터 예측
 2. 자기회귀: **과거의 값으로부터 현재의 값 예측**
 3. 지연: 과거의 어느 시점까지 데이터를 사용할 지 결정
-
-</div>
 
 ![bg right:33% w:200](./image.png)
 
